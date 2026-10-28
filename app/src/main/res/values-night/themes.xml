@@ -1,7 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.AmbulanceSmartTracker" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <!-- Tema untuk Mode Gelap (Dark Mode) -->
+    <style name="Theme.AmbulanceSmartTracker" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Warna utama tetap sama agar identitas "DELTRACK" terjaga -->
+        <item name="colorPrimary">@color/navy_primary</item>
+        <item name="colorSecondary">@color/orange_accent</item>
+
+        <!-- Ubah warna status bar (bagian atas HP) menjadi gelap senada dengan tema -->
+        <item name="android:statusBarColor">@color/navy_primary</item>
+
+        <!-- WAJIB false: Agar teks jam & ikon baterai di layar atas menjadi warna putih -->
+        <item name="android:windowLightStatusBar">false</item>
+
     </style>
 </resources>

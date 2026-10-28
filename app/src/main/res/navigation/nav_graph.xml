@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/trackerFragment">
+
+    <!-- ID di bawah ini HARUS sama persis dengan ID di bottom_nav_menu.xml -->
+    <fragment
+        android:id="@+id/trackerFragment"
+        android:name="com.example.ambulancesmarttracker.ui.TrackerFragment"
+        android:label="Tracker"
+        tools:layout="@layout/fragment_tracker" />
+
+    <fragment
+        android:id="@+id/simulasiFragment"
+        android:name="com.example.ambulancesmarttracker.ui.SimulasiFragment"
+        android:label="Simulasi"
+        tools:layout="@layout/fragment_simulasi" />
+
+    <fragment
+        android:id="@+id/logSesiFragment"
+        android:name="com.example.ambulancesmarttracker.ui.LogSesiFragment"
+        android:label="Log Sesi"
+        tools:layout="@layout/fragment_log_sesi" />
+
+    <fragment
+        android:id="@+id/pengaturanFragment"
+        android:name="com.example.ambulancesmarttracker.ui.PengaturanFragment"
+        android:label="Pengaturan"
+        tools:layout="@layout/fragment_pengaturan" />
+</navigation>

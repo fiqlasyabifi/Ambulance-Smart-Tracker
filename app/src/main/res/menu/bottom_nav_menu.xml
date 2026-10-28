@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/trackerFragment"
+        android:icon="@drawable/ic_tracker"
+        android:title="Tracker" />
+    <item
+        android:id="@+id/simulasiFragment"
+        android:icon="@drawable/ic_simulasi"
+        android:title="Simulasi" />
+    <item
+        android:id="@+id/logSesiFragment"
+        android:icon="@drawable/ic_log"
+        android:title="Log Sesi" />
+    <item
+        android:id="@+id/pengaturanFragment"
+        android:icon="@drawable/ic_pengaturan"
+        android:title="Pengaturan" />
+</menu>
